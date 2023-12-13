@@ -1,0 +1,56 @@
+{
+  "export": {
+    "csv": [
+      {
+        "type": "simulation",
+        "characteristics": [
+          "ScenarioId",
+          "LossAllocationRunId",
+          "TypeOfCover",
+          "AccidentYear",
+          "PolicyType",
+          "AccountNumber",
+          "AccountName"
+        ],
+        "metrics": [
+          "InsuredLoss",
+          "AggregatesDamaged",
+          "DefenceCost"
+        ],
+        "exportPositiveGrossLoss": true
+      }
+    ]
+  },
+  "numberOfRuns": 100,
+  "randomSeed": 1,
+  "exportPositiveGrossLoss": true,
+  "reinsurance": {
+    "layers": [],
+    "relations": []
+  },
+  "lossAllocation": {
+    "groups": [
+      {
+        "title": "...",
+        "settings": {},
+        "scenarios": [
+          {
+            "ref": "...",
+            "portfolio": {
+              "ref": "..."
+            },
+            "id": "1554622"
+          }
+        ]
+      }
+    ]
+  },
+  "currency": [
+    {
+      "code": "usd",
+      "rate": 1
+    }
+  ],
+  "lossByAY": false,
+  "businessAsUsual": false
+}
