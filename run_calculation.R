@@ -60,7 +60,7 @@ print(paste0("Report pre-signed download URL: ",report_download_url))
 
 # 4. Download calculation report.
 
-download.file(report_download_url, destfile = 'examples/run/result.csv', mode = "wb")
+download.file(report_download_url, destfile = 'result.csv', mode = "wb")
 
 
 
