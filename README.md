@@ -34,7 +34,7 @@ source("authenticate.R")
 library(jsonlite)
 library(rjson)
 
-settings <- fromJSON(file = "api-axis.json")
+settings <- fromJSON(file = "api.json")
 
 workspace <- "workspace2"
 
